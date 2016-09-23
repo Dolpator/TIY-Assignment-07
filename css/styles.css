@@ -373,179 +373,128 @@ img {
 
 body {
   font-family: Palatino, sans-serif;
-  margin: 0;
   background-color: #69A77C;
   height: 100vh; }
 
 #app-container {
-  max-width: 100%;
-  font-size: 0; }
-  #app-container .main-container {
+  max-width: 960px;
+  margin: auto;
+  /* Small devices (tablets, 768px and up) */ }
+  #app-container .navbar-container {
     width: 100%;
+    margin: 0;
     font-size: medium;
-    text-align: center; }
-    #app-container .main-container .solrod-logo {
-      width: 20px; }
-    #app-container .main-container .info-container {
-      width: 100%;
-      margin: auto;
-      display: inline-block;
-      font-size: medium; }
-      #app-container .main-container .info-container .about-us {
-        margin: auto;
-        margin: 0, auto;
-        width: 60%;
-        height: 40px;
-        margin-bottom: 20px;
-        font-size: 12px;
-        color: lightgrey;
-        text-align: center;
-        border: 1px solid white; }
-        #app-container .main-container .info-container .about-us p {
-          padding: 12px; }
-      #app-container .main-container .info-container .artist-container {
-        margin: auto;
-        margin: 0, auto;
-        width: 80%;
-        height: 40%;
-        padding-top: 2px;
-        margin-bottom: 20px;
-        background-color: white; }
-        #app-container .main-container .info-container .artist-container h2 {
-          padding: 10px; }
-        #app-container .main-container .info-container .artist-container p {
-          padding: 0px;
-          font-size: 13px; }
-    #app-container .main-container .picture-container {
-      width: 100%;
-      display: inline-block;
-      font-size: medium; }
-      #app-container .main-container .picture-container .pic-column-one > * {
-        display: inline-block;
-        font-size: medium;
-        background-color: white;
-        text-align: center;
-        width: auto; }
-      #app-container .main-container .picture-container .profile-one {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-one .profile-one-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-two {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-two .profile-two-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-three {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-three .profile-four-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-four {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-four .profile-four-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-five {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-five .profile-five-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-six {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-six .profile-six-info {
-          height: 15%;
-          padding: 0px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-seven {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-seven .profile-seven-info {
-          height: 15%;
-          padding: 5px;
-          margin-top: 10px; }
-      #app-container .main-container .picture-container .profile-eight {
-        width: 50%;
-        margin-bottom: 20px; }
-        #app-container .main-container .picture-container .profile-eight .profile-eight-info {
-          height: 15%;
-          padding: 5px;
-          margin-top: 10px; }
-    #app-container .main-container .grant-container > * {
-      width: 100%;
-      margin: auto;
-      display: inline-block;
-      font-size: 0; }
-      #app-container .main-container .grant-container > * .art-grants {
-        width: 100%;
-        margin: auto;
-        margin: 0, auto;
-        height: 20px;
-        margin-bottom: 20px;
-        font-size: 12px;
-        color: #637569;
-        text-align: center; }
-        #app-container .main-container .grant-container > * .art-grants p {
-          padding: 20px; }
-      #app-container .main-container .grant-container > * .grant-container2 > * {
-        width: 100%;
-        margin: auto;
-        display: inline-block; }
-        #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container {
-          width: 100%;
-          margin: auto;
-          font-size: medium; }
-          #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-one {
-            width: 50%;
-            margin-bottom: 20px; }
-            #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-one .art-pic-one-info {
-              width: 25%;
-              height: 15%;
-              padding: 5px;
-              margin-top: 10px;
-              text-align: center; }
-          #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-two {
-            width: 100%;
-            margin-bottom: 20px; }
-            #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-two .art-pic-two-info {
-              height: 15%;
-              padding: 5px;
-              margin-top: 10px;
-              text-align: center; }
-          #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-three {
-            width: 100%;
-            margin-bottom: 20px; }
-            #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-three .art-pic-three-info {
-              height: 15%;
-              padding: 5px;
-              margin-top: 10px;
-              text-align: center; }
-          #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-four {
-            width: 100%;
-            margin-bottom: 20px; }
-            #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-four .art-pic-four-info {
-              height: 15%;
-              padding: 5px;
-              margin-top: 10px;
-              text-align: center; }
-          #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-five {
-            width: 100%;
-            margin-bottom: 10px; }
-            #app-container .main-container .grant-container > * .grant-container2 > * .art-pic-container .art-pic-five .art-pic-five-info {
-              height: 15%;
-              padding: 5px;
-              margin-top: 10px;
-              text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
+  #app-container .solrod-logo {
+    width: 20px; }
+  #app-container .info-container {
+    width: 100%; }
+  #app-container .about-us {
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: lightgrey;
+    text-align: center;
+    border: 1px solid white; }
+    #app-container .about-us p {
+      padding: 7px; }
+  #app-container .artist-container {
+    margin: auto;
+    margin: 0, auto;
+    width: 100%;
+    height: 40%;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    background-color: white; }
+    #app-container .artist-container h2 {
+      padding: 10px; }
+    #app-container .artist-container p {
+      padding: 0px;
+      font-size: 13px; }
+  #app-container .picture-container > * {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  #app-container .pic-column > * {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px; }
+    #app-container .pic-column > * img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
+  #app-container .pic-column-info > * {
+    margin-top: 10px; }
+  #app-container .small-but-mighty {
+    display: none; }
+  #app-container .art-grants {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    height: 150px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: white; }
+    #app-container .art-grants p {
+      font-size: 12px;
+      padding: 0px; }
+  #app-container .pic-container > * {
+    border-radius: 10px; }
+    #app-container .pic-container > * p {
+      color: lightgrey; }
+  #app-container .art-container {
+    margin-top: 70px;
+    padding-top: 70px; }
+  #app-container .chevron {
+    position: relative; }
+    #app-container .chevron i {
+      color: lightgrey;
+      position: absolute;
+      bottom: 25px;
+      right: 25px; }
+    #app-container .chevron p {
+      color: lightgrey;
+      position: absolute;
+      bottom: 13px;
+      right: 50px; }
+  #app-container .img-container {
+    height: 300px;
+    background: url("../images/assets/solrod-drawingboard-background.jpg") center center no-repeat;
+    background: cover; }
+  #app-container .join-button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: darkgrey; }
+    #app-container .join-button p {
+      margin-top: 10px;
+      padding: 5px; }
+  #app-container .footer {
+    width: 100%;
+    height: 100px; }
+  #app-container .social img {
+    padding: 0;
+    height: 70px;
+    width: 25px; }
+  #app-container .small-but-mighty {
+    display: none; }
+  @media screen and (min-width: 768px) {
+    #app-container .art-grants {
+      padding: 60px; }
+    #app-container .small-but-mighty {
+      display: block;
+      background: url("../images/assets/solrod-team-background.jpg") center center no-repeat;
+      background: cover;
+      height: 80%;
+      position: relative; }
+      #app-container .small-but-mighty img {
+        width: 30%;
+        position: absolute;
+        top: 30%;
+        left: 35%; } }
+  #app-container .social {
+    margin-right: -600px; }
 
 /*# sourceMappingURL=styles.css.map */
